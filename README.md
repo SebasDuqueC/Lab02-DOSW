@@ -2,3 +2,4 @@
 
 ## INTEGRANTES
 Felipe Calvache
+Sebastian Duque
