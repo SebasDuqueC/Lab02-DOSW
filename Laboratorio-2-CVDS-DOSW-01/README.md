@@ -25,6 +25,7 @@ El patrón Builder permite construir objetos complejos paso a paso, evitando con
 6. En Main, el cliente personaliza su hamburguesa encadenando métodos del builder y genera la hamburguesa final.
 
 
+
 # Reto 4 - Casa de Cambio
 
 ## Patrón de Diseño
@@ -52,3 +53,21 @@ El patrón Chain of Responsibility permite desacoplar el emisor de una petición
 
 ## Cómo lo aplico
 Cada técnico (`Tecnico`) implementa el método `procesar` y tiene una referencia al siguiente técnico en la cadena. Los tickets se procesan desde el técnico básico, pasando por intermedio y avanzado según el nivel y prioridad. Si ningún técnico puede resolver el ticket, se marca como pendiente de escalamiento. Se usan streams para generar estadísticas de tickets resueltos por nivel.
+
+# Reto 3 - El Reino de los Vehículos
+
+## Patrón de Diseño
+Creacional
+
+## Patrones Utilizados
+Abstract Factory y Builder
+
+## Justificación
+El patrón Abstract Factory permite crear familias de vehículos (Tierra, Acuático, Aéreo) y sus categorías (Económico, Lujo, Usado) sin acoplar el código a clases concretas. Así, el sistema es flexible y escalable para agregar nuevos tipos o modelos de vehículos.
+El patrón Builder facilita la construcción de vehículos con diferentes características y equipamiento, permitiendo agregar atributos de manera ordenada y clara.
+
+## Cómo lo aplico
+* Se implementaron fábricas concretas (`TierraFactory`, `AcuaticoFactory`, `AereoFactory`) que generan builders para cada tipo de vehículo y categoría.
+* El builder (`VehiculoBuilder`) permite configurar el modelo, categoría, tipo y equipamiento antes de crear la instancia final del vehículo.
+* El usuario puede seleccionar X cantidad de vehículos, especificando tipo, categoría y modelo, y el sistema los genera usando los patrones mencionados.
+* Se utiliza la API de Streams de Java para calcular el precio total de la compra de manera eficiente y declarativa.
