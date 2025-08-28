@@ -1,10 +1,9 @@
-
 package edu.dosw.lab.estructurales.Reto4;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Reto4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         CasaDeCambio casa = new CasaDeCambio();

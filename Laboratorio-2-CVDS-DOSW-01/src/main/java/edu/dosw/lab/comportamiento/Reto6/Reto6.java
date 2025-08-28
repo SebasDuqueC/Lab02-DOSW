@@ -3,7 +3,7 @@ package edu.dosw.lab.comportamiento.Reto6;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Reto6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Número de tickets: ");
