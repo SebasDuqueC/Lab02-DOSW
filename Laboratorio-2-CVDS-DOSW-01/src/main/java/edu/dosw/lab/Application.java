@@ -5,6 +5,7 @@ import edu.dosw.lab.comportamiento.Reto6.Reto6;
 import edu.dosw.lab.creacionales.Reto2.Reto2;
 import edu.dosw.lab.estructurales.Reto4.Reto4;
 import edu.dosw.lab.estructurales.Reto5.Reto5;
+import edu.dosw.lab.creacionales.Reto3.Reto3;
 import java.util.Scanner;
 
 public class Application {
@@ -33,9 +34,9 @@ public class Application {
 				case 2:
 					Reto2.main(new String[]{});
 					break;
-				//case 3:
-				//	Reto3.main(new String[]{});
-				//	break;
+				case 3:
+					Reto3.main(new String[]{});
+					break;
 				case 4:
 					Reto4.main(new String[]{});
 					break;
