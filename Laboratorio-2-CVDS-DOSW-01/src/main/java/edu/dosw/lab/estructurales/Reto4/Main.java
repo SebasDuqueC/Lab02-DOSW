@@ -1,5 +1,5 @@
 
-package edu.dosw.lab.Laboratorio_2_CVDS_DOSW_01.Estructurales.Reto4;
+package edu.dosw.lab.estructurales.Reto4;
 
 import java.util.*;
 import java.util.stream.Collectors;

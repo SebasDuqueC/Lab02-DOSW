@@ -1,4 +1,4 @@
-package edu.dosw.lab.Laboratorio_2_CVDS_DOSW_01.Creacionales.Reto2;
+package edu.dosw.lab.creacionales.Reto2;
 
 import java.util.ArrayList;
 import java.util.List;

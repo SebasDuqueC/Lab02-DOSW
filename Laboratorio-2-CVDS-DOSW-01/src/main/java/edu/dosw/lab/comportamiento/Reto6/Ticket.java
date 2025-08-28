@@ -1,4 +1,4 @@
-package edu.dosw.lab.Laboratorio_2_CVDS_DOSW_01.Comportamiento.Reto6;
+package edu.dosw.lab.comportamiento.Reto6;
 
 public class Ticket {
     private final int id;
