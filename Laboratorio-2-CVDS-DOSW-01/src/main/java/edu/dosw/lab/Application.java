@@ -28,7 +28,7 @@ public class Application {
 			System.out.print("Seleccione una opción: ");
 
 			int opcion = scanner.nextInt();
-			scanner.nextLine(); // limpiar buffer
+			scanner.nextLine();
 
 			switch (opcion) {
 				case 1:
