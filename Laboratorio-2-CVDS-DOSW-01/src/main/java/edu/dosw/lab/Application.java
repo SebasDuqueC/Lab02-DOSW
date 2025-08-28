@@ -5,6 +5,7 @@ import edu.dosw.lab.comportamiento.Reto6.Reto6;
 import edu.dosw.lab.creacionales.Reto2.Reto2;
 import edu.dosw.lab.estructurales.Reto4.Reto4;
 import edu.dosw.lab.estructurales.Reto5.Reto5;
+import edu.dosw.lab.comportamiento.Reto7.Reto7;
 import java.util.Scanner;
 
 public class Application {
@@ -20,6 +21,7 @@ public class Application {
 			System.out.println("4. Ejecutar Reto 4");
 			System.out.println("5. Ejecutar Reto 5");
 			System.out.println("6. Ejecutar Reto 6");
+			System.out.println("7, Ejecutar Reto 7");
 			System.out.println("0. Salir");
 			System.out.print("Seleccione una opción: ");
 
@@ -44,6 +46,9 @@ public class Application {
 					break;
 				case 6:
 					Reto6.main(new String[]{});
+					break;
+				case 7:
+					Reto7.main(new String[]{});
 					break;
 				case 0:
 					System.out.println("Adi0ss!");
