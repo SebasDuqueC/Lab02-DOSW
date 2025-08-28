@@ -1,8 +1,13 @@
-## Laboratorio 2 DOSW
+# Laboratorio 2 SOLID, Patrones de Diseño y UML
 
-## INTEGRANTES
-Felipe Calvache - 
-Sebastian Duque
+**Integrantes:** 
+- Felipe Calvache
+- Sebastian Duque
+
+**Nombre De la Rama**
+'feature/Calvache_Duque_2025-2'
+
+---
 
 # Preguntas Iniciales
 1. ¿Qué ventaja ofrece el polimorfismo en el diseño de clases frente al uso de múltiples condicionales para determinar el comportamiento de un objeto?
